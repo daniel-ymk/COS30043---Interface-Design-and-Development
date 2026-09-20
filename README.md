@@ -17,3 +17,10 @@ pnpm run dev
 ```sh
 pnpm run build
 ```
+
+## Deploy (GitHub Pages)
+
+The site is built into `docs/` (see `vite.config.js`). After running `pnpm run build`, commit and push `docs/`, then set
+GitHub → Settings → Pages → Source: "Deploy from a branch", branch `main`, folder `/docs`.
+
+Live site: https://daniel-ymk.github.io/COS30043---Interface-Design-and-Development/

@@ -5,4 +5,6 @@ import { defineConfig } from 'vite'
 export default defineConfig({
   plugins: [vue()],
   base: '/COS30043---Interface-Design-and-Development/',
+  // Build into /docs so GitHub Pages can serve it from "main" branch -> "/docs"
+  build: { outDir: 'docs', emptyOutDir: true },
 })
